@@ -13,7 +13,7 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Light red: hsl(0, 100%, 67%)
+- Light red: hsla(0, 100.00%, 67.10%, 0.25)
 - Orangey yellow: hsl(39, 100%, 56%)
 - Green teal: hsl(166, 100%, 37%)
 - Cobalt blue: hsl(234, 85%, 45%)
@@ -25,8 +25,6 @@ The designs were created to the following widths:
 
 - Violet blue (circle): hsla(256, 72%, 46%, 1)
 - Persian blue (circle): hsla(241, 72%, 46%, 0)
-
-
 
 ### Neutral
 

@@ -1,0 +1,249 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+  transition: all 0.5s;
+}
+:root {
+  --Light--red: hsla(0, 100%, 67%, 0.2);
+  --Orangey--yellow: hsla(39, 100%, 56%, 0.2);
+  --green-teal: hsla(166, 100%, 37%, 0.198);
+  --Cobalt--blue: hsla(234, 85%, 45%, 0.197);
+  --White: hsl(0, 0%, 100%);
+  --Pale--blue: hsl(221, 100%, 96%);
+  --Light--lavender: hsl(241, 100%, 89%);
+  --Dark--gray--blue: hsl(224, 30%, 27%);
+  --Light--slate--blue: hsl(252, 100%, 67%);
+  --Light--royal--blue: hsl(241, 81%, 54%);
+  --Violet--blue: hsla(256, 72%, 46%, 1);
+  --Persian--blue: hsla(241, 72%, 46%, 0);
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Pale--blue);
+}
+.container .card {
+  display: flex;
+  width: 40%;
+  flex-direction: row;
+  position: relative;
+  background-color: var(--White);
+  border-radius: 30px;
+}
+.container .card .first-section {
+  background-image: linear-gradient(
+    var(--Light--slate--blue),
+    var(--Light--royal--blue)
+  );
+  /* position: absolute; */
+  border-radius: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.container .card .first-section h3 {
+  color: var(--Light--lavender);
+  padding: 10px;
+  margin: 10px;
+  font-weight: 600;
+}
+.container .card .first-section .result {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(var(--Violet--blue), var(--Persian--blue));
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.container .card .first-section .result h1 {
+  font-size: 48px;
+  color: var(--White);
+}
+.container .card .first-section .result span {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--Light--lavender);
+}
+.container .card .first-section h2 {
+  color: var(--White);
+  font-weight: 500;
+  margin-block: 10px;
+  padding-block: 10px;
+}
+.container .card .first-section p {
+  width: 80%;
+  text-align: center;
+  color: var(--White);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.container .card .second-section {
+  background-color: var(--White);
+  /* padding: 15px; */
+  padding: 10px;
+  /* margin: 0 0 0 20px; */
+  border-radius: 30px;
+  width: 50%;
+  left: 20px;
+}
+.container .card .second-section .stats {
+  width: 80%;
+  margin-inline: auto;
+}
+.container .card .second-section h2 {
+  font-weight: 500;
+  padding: 10px 20px;
+}
+.container .card .second-section .rection {
+  background-color: var(--Light--red);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.container .card .second-section .rection .icon {
+  display: flex;
+  flex-direction: row;
+}
+.container .card .second-section .rection .icon h4 {
+  color: hsla(0, 100%, 67.1%);
+  font-weight: 500;
+}
+.container .card .second-section .rection .rection-stat span {
+  color: var(--White);
+}
+.container .card .second-section .memory {
+  background-color: var(--Orangey--yellow);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.container .card .second-section .memory .icon {
+  display: flex;
+  flex-direction: row;
+}
+.container .card .second-section .memory .icon h4 {
+  color: hsl(39, 100%, 56%);
+  font-weight: 500;
+}
+.container .card .second-section .memory .memory-stat span {
+  color: var(--White);
+}
+.container .card .second-section .verbal {
+  background-color: var(--green-teal);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.container .card .second-section .verbal .icon {
+  display: flex;
+  flex-direction: row;
+}
+.container .card .second-section .verbal .icon h4 {
+  color: hsl(166, 100%, 37%);
+  font-weight: 500;
+}
+.container .card .second-section .verbal .verbal-stat span {
+  color: var(--White);
+}
+.container .card .second-section .visual {
+  background-color: var(--Cobalt--blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.container .card .second-section .visual .icon {
+  display: flex;
+  flex-direction: row;
+}
+.container .card .second-section .visual .icon h4 {
+  color: hsl(234, 85%, 45%);
+}
+.container .card .second-section .visual .visual-stat span {
+  color: var(--White);
+}
+.container .card .second-section button {
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  margin-bottom: 10px;
+  background-color: var(--Dark--gray--blue);
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+.container .card .second-section button:hover {
+  /* background-image: linear-gradient(
+    var(--Light--slate--blue),
+    var(--Light--royal--blue)
+  ); */
+  background-color: var(--Light--slate--blue);
+}
+.container .card .second-section button a {
+  text-decoration: none;
+  color: var(--White);
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 0;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  .container .card {
+    width: 100%;
+    flex-direction: column;
+  }
+  .container .card .first-section {
+    width: 100%;
+    height: 50vh;
+    padding-top: 50px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .container .card .second-section {
+    width: 100%;
+    padding-top: 50px;
+    height: 50vh;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .container .card .second-section h2 {
+    padding-left: 50px;
+  }
+}
